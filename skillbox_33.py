@@ -80,10 +80,10 @@ def isPrime(number):
             return False
     return True
 
-numbers = int(input('Укажите кол-во чисел: '))
+numbers = int(input('Укажите количество проверяемых чисел: '))
 counter = 0
 for _ in range(numbers):
-    number = int(input('Введите число для проверки: '))
+    number = int(input('Введите новое число для проверки: '))
     if isPrime(number):
         counter += 1
 
