@@ -62,17 +62,13 @@ from math import pi as pi
 
 def sphereArea(radius):
    s = 4 * pi * radius ** 2
-   print('\nПлощадь поверхности сферы =', s, 'кв.км')
+   print('\nПлощадь поверхности сферы планеты =', s, 'кв.км')
 
 def sphereVolume(radius):
    v = (4 / 3) * pi * radius ** 3
    print('Объём сферы =', v, 'куб.км')
 
-<<<<<<< HEAD
 radius = float(input('Укажите радиус новой планеты: '))
-=======
-radius = float(input('Укажите радиус планеты для работы программы: '))
->>>>>>> 3c86cad9bccdfcc8eaadbfe79e6777926504d425
 sphereArea(radius)
 sphereVolume(radius)
 
