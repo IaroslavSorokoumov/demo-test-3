@@ -58,36 +58,36 @@
 ##    price = input('Какая цена: ')
 ##    aboutWater(price)
 
-##from math import pi as pi
-##
-##def sphereArea(radius):
-##    s = 4 * pi * radius ** 2
-##    print('\nПлощадь поверхности сферы =', s, 'кв.км')
-##
-##def sphereVolume(radius):
-##    v = (4 / 3) * pi * radius ** 3
-##    print('Объём сферы =', v, 'куб.км')
-##
-##radius = float(input('Укажите радиус планеты: '))
-##sphereArea(radius)
-##sphereVolume(radius)
+from math import pi as pi
 
-from math import sqrt as sqrt
+def sphereArea(radius):
+   s = 4 * pi * radius ** 2
+   print('\nПлощадь поверхности сферы =', s, 'кв.км')
 
-def isPrime(number):
-    for i in range(2, int(sqrt(number)) + 1):
-        if number % i == 0:
-            return False
-    return True
+def sphereVolume(radius):
+   v = (4 / 3) * pi * radius ** 3
+   print('Объём сферы =', v, 'куб.км')
 
-numbers = int(input('Укажите количество проверяемых чисел: '))
-counter = 0
-for _ in range(numbers):
-    number = int(input('Введите новое число для проверки: '))
-    if isPrime(number):
-        counter += 1
+radius = float(input('Укажите радиус планеты: '))
+sphereArea(radius)
+sphereVolume(radius)
 
-print('Кол-во простых чисел:', counter)
+# from math import sqrt as sqrt
+
+# def isPrime(number):
+#     for i in range(2, int(sqrt(number)) + 1):
+#         if number % i == 0:
+#             return False
+#     return True
+
+# numbers = int(input('Укажите количество проверяемых чисел: '))
+# counter = 0
+# for _ in range(numbers):
+#     number = int(input('Введите новое число для проверки: '))
+#     if isPrime(number):
+#         counter += 1
+
+# print('Кол-во простых чисел:', counter)
 
         
         
