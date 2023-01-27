@@ -49,29 +49,29 @@
 ##
 
 
-##def aboutWater(price):
-##    print(f"\nНазвание: КлирВотер\n"
-##          f"Производитель: ВодЗавод\n"
-##          f"Цена: {price}\n")
-##
-##for _ in range(3):
-##    price = input('Какая цена: ')
-##    aboutWater(price)
+def aboutWater(price):
+   print(f"\nНазвание: КлирВотер\n"
+         f"Производитель: ВодЗавод\n"
+         f"Цена: {price}\n")
 
-from math import pi as pi
+for _ in range(3):
+   price = input('Какая цена: ')
+   aboutWater(price)
 
-def sphereArea(radius):
-   s = 4 * pi * radius ** 2
-   print()
-   print('Площадь поверхности сферы новой планеты =', s, 'кв.км')
+# from math import pi as pi
 
-def sphereVolume(radius):
-   v = (4 / 3) * pi * radius ** 3
-   print('Объём сферы =', v, 'куб.км')
+# def sphereArea(radius):
+#    s = 4 * pi * radius ** 2
+#    print()
+#    print('Площадь поверхности сферы новой планеты =', s, 'кв.км')
 
-radius = float(input('Укажите радиус новой планеты: '))
-sphereArea(radius)
-sphereVolume(radius)
+# def sphereVolume(radius):
+#    v = (4 / 3) * pi * radius ** 3
+#    print('Объём сферы =', v, 'куб.км')
+
+# radius = float(input('Укажите радиус новой планеты: '))
+# sphereArea(radius)
+# sphereVolume(radius)
 
 # from math import sqrt as sqrt
 
