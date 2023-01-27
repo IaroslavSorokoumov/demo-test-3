@@ -65,19 +65,19 @@
 ##else:
 ##  print('Вариант не подходит.')
 
-##time = int(input('Укажите время для получения посылки: '))
-##
-##if (time >= 8) and (time < 10) or (time >= 12) and (time < 14) or (time >= 15) and (time < 18) or (time >= 20) and (time < 22):
-##  print('Можно получить посылку')
-##else:
-##  print('Посылку получить нельзя.')
-
 time = int(input('Укажите время для получения посылки: '))
 
-if (time > 21) or (time < 8) or (time >= 10) and (time < 12) or (time > 13) and (time < 15) or (time > 17) and (time < 20):
-  print('Посылку получить нельзя.')
+if (time >= 8) and (time < 10) or (time >= 12) and (time < 14) or (time >= 15) and (time < 18) or (time >= 20) and (time < 22):
+ print('Можно получить посылку')
 else:
-  print('Можно получить посылку')
+ print('Посылку получить нельзя.')
+
+# time = int(input('Укажите время для получения посылки: '))
+
+# if (time > 21) or (time < 8) or (time >= 10) and (time < 12) or (time > 13) and (time < 15) or (time > 17) and (time < 20):
+#   print('Посылку получить нельзя.')
+# else:
+#   print('Можно получить посылку')
 
 
 
