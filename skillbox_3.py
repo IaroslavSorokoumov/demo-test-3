@@ -22,7 +22,7 @@
 ##print(f"This intensive drive by {name}, duration {dur_hours} hours") 
 
 name = input('Your name: ')
-print('Hello ' + name)
+print('f Hello  {name}')
 name2 = input('Second name ')
 print('Hi ' + name2)
 print('Hello', name + ' and', name2 + '!')
