@@ -21,12 +21,12 @@
 ###print(f"This intensive drive by {name}, duration {duration} minutes") 
 ##print(f"This intensive drive by {name}, duration {dur_hours} hours") 
 
-##name = input('Your name: ')
-##print('Hello ' + name)
-##name2 = input('Second name ')
-##print('Hi ' + name2)
-##print('Hello', name + ' and', name2 + '!')
-##print('Hello ' + name + ' and ' + name2 + '!')
+name = input('Your name: ')
+print('Hello ' + name)
+name2 = input('Second name ')
+print('Hi ' + name2)
+print('Hello', name + ' and', name2 + '!')
+print('Hello ' + name + ' and ' + name2 + '!')
 
 ##a, b, c = 8, 5, 3
 ##
@@ -38,7 +38,7 @@
 ##result = ((6 + (10 - bus) ** 2) / (metro + 1)) + 132 / (2 + bus)
 ##print(result)
 
-print(f" a = (-3 + (8**2 - 12) * 4**3**2) / (2 * 18)")
-a = (-3 + (8**2 - 12) * 4**3**2) / (2 * 18)
-print('a =', a)
-print()
+# print(f" a = (-3 + (8**2 - 12) * 4**3**2) / (2 * 18)")
+# a = (-3 + (8**2 - 12) * 4**3**2) / (2 * 18)
+# print('a =', a)
+# print()
